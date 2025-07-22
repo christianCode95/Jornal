@@ -10,8 +10,8 @@ This is a newspaper project, which has a simple newspaper format.
 
 ## 👨‍💻 Languages that were used
 
-HTML5
-CSS3
-JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
 
