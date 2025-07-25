@@ -8,6 +8,14 @@ This is a newspaper project, which has a simple newspaper format.
 - The animation is done by CSS, with rotation and perspective;
 - The newspaper has 6 pages in total, with a cover and 5 more pages.
 
+![Page 1](imagens/Jornal%20(1).png)
+
+### 🧾 Page 2
+![Page 2](imagens/Jornal%20(2).png)
+
+### 🧾 Page 3
+![Page 3](imagens/Jornal%20(3).png)
+
 ## 👨‍💻 Languages that were used
 
 - HTML5
