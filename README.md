@@ -22,4 +22,10 @@ This is a newspaper project, which has a simple newspaper format.
 - CSS3
 - JavaScript
 
+## 📥 Cloning the project
+
+To clone this repository to your local machine, use the command:
+
+```bash
+git clone https://github.com/christianCode95/jornal.git
 
