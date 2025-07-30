@@ -1,0 +1,108 @@
+body {
+  font-family: "Georgia", serif;
+  background-color: #fffdfa;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: #f4f1ec;
+  padding: 40px;
+  width: 95%;
+  max-width: 1500px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  transition: transform 1s ease-in-out;
+  background-image: url(texturaJornal.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.alinhamento {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  text-align: center;
+  border-top: 5px double #000;
+  border-bottom: 5px double #000;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5rem;
+  margin: 0;
+  color: #000;
+}
+
+.data {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+.pagina {
+  text-align: left;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.titulo {
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin: 30px 0 15px;
+  text-align: center;
+}
+
+.imagem-destaque {
+  text-align: left;
+  margin: 30px;
+}
+
+.imagem-destaque img {
+  width: 1000px;
+  border: 2px solid #000;
+}
+.noticia {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+.noticia img{
+  max-width: 600px;
+  height: auto;
+  margin: 20px 0;
+}
+.colunas {
+  column-count: 2;
+  column-gap: 50px;
+  margin-top: 50px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.botoes button {
+  background-color: #e0ded9;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: "Georgia", serif;
+}
+
+.container.flip {
+  transform-origin: left center;
+  transform: perspective(1200px) rotateY(-90deg);
+}
+
+.container.flip-reverse {
+  transform-origin: right center;
+  transform: perspective(1200px) rotateY(90deg);
+}
