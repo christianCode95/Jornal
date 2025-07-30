@@ -37,6 +37,10 @@ Jornal/
 - Admin panel to publish new articles
 - Enhanced mobile version
 
+   🚀 **Live Demo:**  
+🔗 https://christianCode95.github.io/Jornal/
+
+
 ## 🧑‍💻 Author
 
 Developed by [Christian Donati Ramires Fagundes](https://github.com/christianCode95)
